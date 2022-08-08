@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #0a192f;
+    color: white;
+    box-shadow: 0 1.5px 3px 0 purple;
+
+}
+.logo{
+    font-size: 30px;
+
+
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 85%;
+
+}
+.home,
+.skill,
+.contact,
+.about,
+.signup{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.signup{
+    border: 2px solid purple;
+    border-radius: 25px;
+}
+
+.social-link{
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0 5px;
+    
+}
+.insta{
+    color: red;
+}
+.snap{
+    color: #ffae00b0;
+}
+.linkedIn{
+    color: blue;
+}
+.git{
+    color: aqua;
+}
+.heart{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    color: aqua;
+
+    height: .9rem;
+
+}
+.mobile-menu-icon{
+    display: none;
+}
+
+.mycontact{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+
+    }
+
+    
+    
+
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        position:absolute;
+        display: block;
+        list-style: none;
+        left: 0;
+        top: 76.5px;
+        transition:all 0.5s ease-in-out ;
+        width: 100%;
+        background-color: purple;
+
+    }
+    .home,
+    .skill,
+    .about,
+    .contact,
+    .signup{
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 40%;
+        transition: all 0.5s ease-in-out;
+    }
+    .social-link{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .signup{
+        border: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 25px;
+        color: white; 
+        background-color:#0a192f;
+        border: none;
+        outline: none;
+        top: 25px; 
+        right: 25px;
+
+    }
+    .cross{
+        font-size: 20px;
+    }
+    .footer{
+        display: block;
+       
+        padding: 1rem 0;
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top:7rem;
+    
+    }
+    
+    
+}

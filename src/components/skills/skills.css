@@ -1,0 +1,33 @@
+.video-head{
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(#00DBDE, #FC00FF);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.vid-div{
+    margin: 0 100px 0 100px;
+  
+   height: 600px;
+   box-shadow: 1px 1px 1px 1px purple;
+   
+   
+
+}
+.player-wrapper{
+   
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.player{
+     ;
+}
