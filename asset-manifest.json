@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ashudost/static/css/main.66f8ca8a.css",
+    "main.js": "/ashudost/static/js/main.4d63700e.js",
+    "static/js/787.cdfe00ef.chunk.js": "/ashudost/static/js/787.cdfe00ef.chunk.js",
+    "index.html": "/ashudost/index.html",
+    "main.66f8ca8a.css.map": "/ashudost/static/css/main.66f8ca8a.css.map",
+    "main.4d63700e.js.map": "/ashudost/static/js/main.4d63700e.js.map",
+    "787.cdfe00ef.chunk.js.map": "/ashudost/static/js/787.cdfe00ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f8ca8a.css",
+    "static/js/main.4d63700e.js"
+  ]
+}
